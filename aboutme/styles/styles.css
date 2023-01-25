@@ -8,7 +8,6 @@
   }
 
   a {
-    color: white;
     margin: 40px;
   }
 
@@ -26,3 +25,11 @@
     background-color: steelblue;
     color: white;
   }
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  #active {
+    background-color: white;
+    color: steelblue;
+    }
