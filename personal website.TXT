@@ -1,0 +1,5 @@
+The idea for my personal website is to share my cooking experience with others in blog, 
+so my target audience will be someone who starts to study or try cooking. 
+My main page will share the recipes of dishes, 
+one of the child pages will be the safety guidelines in the kitchen, 
+and the others child pages will be the Food Photography for everyone to submit.
