@@ -7,96 +7,164 @@
     <title>Personal Site</title>
 </head>
 <body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.jpg" alt="Easy Cooking Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="recipe.html">Weekly Recipes</a>
-            <a href="photography.html">Photography</a>
-            <a href="index.html">Contact Us</a>
-        </nav>
-        <p>Contact: 12-345-6789</p>
-    </header>
-
-    
-    <main>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo1.jpg" alt="photo1">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo2.jpg" alt="photo2">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo3.jpg" alt="photo3">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo4.jpg" alt="photo4">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo5.jpg" alt="photo5">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo6.jpg" alt="photo6">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo7.jpg" alt="photo7">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo8.jpg" alt="photo8">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <div class="photo">
-            <h1>Food Photography</h1>
-            <img class="photo" src="images/photo9.jpg" alt="photo9">
-            <h4>Mary</h4>
-            <h4>Food Name</h4>
-        </div>
-        <h1>Welcome to Post Your Dishes</h1>
-        <h1>Click <a href="contact.html">Here</a> to Submit</h1>
-    </main>
+    <div id="content">
+        <header>
+            <link type="text/css" rel="stylesheet" href="styles/photography.css">
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.jpg" alt="Easy Cooking Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="recipe.html">Weekly Recipes</a>
+                <a href="photography.html">Photography</a>
+                <a href="index.html">Contact Us</a>
+            </nav>
+            <p>Contact: 12-345-6789</p>
+        </header>
 
 
-    <footer>
-        <p>Contact: 12-345-6789</p>
-        <nav>
-            <a href="recipe.html">Weekly Recipes</a>
-            <a href="photography.html">Photography</a>
-            <a href="index.html">Contact Us</a>
-        </nav>
-        <a href="https://facebook.com">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com">
-            <img src="images/instagram.png" alt="instagram icon">
-    </footer>
+        <main>
+            <h1>Food Photography</h1>
+            <div class="container">
+
+                <!-- Full-width images with number text --> 
+                <div class="mySlides">
+                    <div class="numbertext">1 / 9</div>
+                        <img src="images/photo1.jpg" style="width:50%">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">2 / 9</div>
+                        <img src="images/photo2.jpg" style="width:50%">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">3 / 9</div>
+                        <img src="images/photo3.jpg" style="width:50%">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">4 / 9</div>
+                        <img src="images/photo4.jpg" style="width:50%">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                        <img src="images/photo5.jpg" style="width:50%">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">6 / 9</div>
+                        <img src="images/photo6.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                        <img src="images/photo7.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                        <img src="images/photo8.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                        <img src="images/photo9.jpg" style="width:50%">
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                <!-- Image text -->
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Burger (by Emma Johnson)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Gratin (by William Brown)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Vegetable focaccia (by Olivia Davis)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Tuna with crusted pepper (by James Wilson)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Baked potato skin with cheddar cheese & bacon & egg (by Ava Thompson)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Spaghetti aglio e olio (by Benjamin Lewis)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Teriyaki pork with rice (by Sophia Peterson)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Wraps (by Ethan Wright)">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/photo9.jpg" style="width:100%" onclick="currentSlide(9)" alt="Thai style fried rice (by Isabella Taylor)">
+                  </div>
+                </div>
+              </div>
+
+
+              <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("demo");
+                  let captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+                </script>
+        </main>
+
+
+        <footer>
+            <p>Contact: 12-345-6789</p>
+            <nav>
+                <a href="recipe.html">Weekly Recipes</a>
+                <a href="photography.html">Photography</a>
+                <a href="index.html">Contact Us</a>
+            </nav>
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram icon">
+        </footer>
+    </div>
     
 </body>
 </html>
