@@ -7,43 +7,45 @@
     <title>Personal Site</title>
 </head>
 <body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.jpg" alt="Easy Cooking Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="recipe.html">Weekly Recipes</a>
-            <a href="photography.html">Photography</a>
-            <a href="index.html">Contact Us</a>
-        </nav>
-        <p>Contact: 12-345-6789</p>
-    </header>
+    <div id="content">
+        <header>
+            <link type="text/css" rel="stylesheet" href="styles/photography.css">
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.jpg" alt="Easy Cooking Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="recipe.html">Weekly Recipes</a>
+                <a href="photography.html">Photography</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+            <p>Tel: 12-345-6789</p>
+        </header>
 
     
     <main>
-        <div id="hero">
-            <img id="hero-img" src="images/hero.png" alt="Big Screen">
-        </div>
-        <div id="recipe-dish1">
+        <h1>Weekly Recipes</h1>
+        <div id="dish-grid">
             <img class="dish1" src="images/dish1.jpg" alt="dish1">
             <section class="dish1-msg">
                 <h2>Carbonara</h2>
                 <ol>
-                    <li>first</li>
-                    <li>second</li>
-                    <li>third</li>
+                    <li>Cook the pasta: Bring a pot of salted water to a boil and add your pasta. Cook until al dente.</li>
+                    <li>Cook the bacon: In a large skillet, cook the bacon until crispy. Remove the bacon from the skillet and set it aside, leaving the bacon fat in the pan.</li>
+                    <li>Make the sauce: In a bowl, whisk together egg yolks, grated Parmesan cheese, and black pepper.</li>
+                    <li>Combine the ingredients: Add the cooked pasta to the skillet with the bacon fat and toss to coat. Remove the skillet from the heat and add the egg mixture, stirring quickly to coat the pasta evenly. The residual heat from the pasta and skillet will cook the egg and create a creamy sauce. If the sauce seems too thick, you can add a splash of pasta water to thin it out.</li>
+                    <li>Serve and enjoy: Crumble the cooked bacon over the pasta and sprinkle with additional grated Parmesan cheese and black pepper to taste. Serve hot and enjoy!</li>
                 </ol>
             </section>
-        </div>
-        <div id="recipe-dish2">
             <img class="dish2" src="images/dish2.jpg" alt="dish2">
             <section class="dish2-msg">
                 <h2>Spring Chicken</h2>
                 <ol>
-                    <li>first</li>
-                    <li>second</li>
-                    <li>third</li>
+                    <li>Preheat the oven: Preheat the oven to 375°F (190°C).</li>
+                    <li>Prepare the chicken: Rinse the chicken under cold running water and pat it dry with paper towels. Rub the chicken with olive oil and season it with salt, black pepper, and your choice of herbs or spices. You can also stuff the chicken with garlic cloves, lemon wedges, or herbs for added flavor.</li>
+                    <li>Place the chicken in a roasting pan: Place the chicken in a roasting pan breast side up. You can also add vegetables like carrots, potatoes, and onions to the pan for a complete meal.</li>
+                    <li>Roast the chicken: Roast the chicken in the preheated oven for about 1 hour and 15 minutes or until the internal temperature of the chicken reaches 165°F (74°C). Baste the chicken with its own juices or melted butter every 20 minutes to keep it moist and flavorful.</li>
+                    <li>Rest and serve: Once the chicken is cooked, remove it from the oven and let it rest for about 10 minutes before carving. This allows the juices to redistribute and the meat to become tender. Serve the chicken with the roasted vegetables and your favorite side dishes.</li>
                 </ol>
             </section>
         </div>
@@ -51,21 +53,21 @@
 
 
     <footer>
-        <p>Contact: 12-345-6789</p>
         <nav>
             <a href="recipe.html">Weekly Recipes</a>
             <a href="photography.html">Photography</a>
-            <a href="index.html">Contact Us</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
-        <a href="https://facebook.com">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com">
-            <img src="images/instagram.png" alt="instagram icon">
+        <div id="logo">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon"></a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter icon"></a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram icon"></a>
+        </div>
     </footer>
+    </div>
     
 </body>
 </html>
